@@ -21,31 +21,26 @@ class SmartCalculator {
 
     add(number) {
         this.addOperation('+', number);
-
         return this;
     }
 
     subtract(number) {
         this.addOperation('-', number);
-
         return this;
     }
 
     multiply(number) {
         this.addOperation('*', number);
-
         return this;
     }
 
     devide(number) {
         this.addOperation('/', number);
-
         return this;
     }
 
     pow(number) {
         this.addOperation('**', number);
-
         return this;
     }
 
